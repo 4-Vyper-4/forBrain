@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class GoogleSearch {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver",
-				"C:/Users/Vyper/Desktop/Selenium/selinium dependencies/drivers/chromedriver.exe");
+				"/Users/brianguadron/Documents/selenium dependencies/drivers/chromedriver");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.Cybertekschool.com");
@@ -17,5 +17,7 @@ public class GoogleSearch {
 		else
 			System.out.println("Fail Title: " + expected + "(Expected) " + "(Actual) " + actual);
 		driver.close();
+		
+		
 	}
 }
