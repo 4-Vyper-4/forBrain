@@ -60,6 +60,7 @@ public class TestingGit1 {
 //		System.out.println("Thats my way of learning SIR");
 		System.out.println("Thank you brothers");
 		System.out.println(t.reverseInt(56738363));
+		t.newReverse();
 		
 		
 		
