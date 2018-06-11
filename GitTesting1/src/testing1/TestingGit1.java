@@ -56,10 +56,11 @@ public class TestingGit1 {
 		System.out.println("Am - Big - You - Us");
 		System.out.println("stop with the writing, start with the practice");
 		System.out.println(t.reverse("Jonny stop cd cd cd all the time in Git"));
-		System.out.println("Thats my way of learning SIR");
+// your wrong, you can learn to walk without writing it down, stop giving yourself a handicap		
+//		System.out.println("Thats my way of learning SIR");
 		System.out.println("Thank you brothers");
 		System.out.println(t.reverseInt(56738363));
-		newReverse();
+		
 		
 		
 	}
