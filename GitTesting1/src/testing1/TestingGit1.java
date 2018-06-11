@@ -19,9 +19,9 @@ public class TestingGit1 {
 	        return i%10;
 	      }
 	 
-	public static void newReverse() {
+	public static void newReverse(int numero) {
 		//Reverse int using while loop
-		int numero = 123456789;
+	
 		int reeverse = 0;
 		
 		while(numero != 0) {
@@ -59,6 +59,8 @@ public class TestingGit1 {
 		System.out.println("Thats my way of learning SIR");
 		System.out.println("Thank you brothers");
 		System.out.println(t.reverseInt(56738363));
+		newReverse();
+		
 		
 	}
 }
