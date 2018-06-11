@@ -11,6 +11,13 @@ public class TestingGit1 {
 	      return s.substring(s.length()-1)+reverse(s.substring(0, s.length()-1));
 	      return "";
 	    }
+	 
+	 public static int reverseInt(int i) {
+	        if (i/10>=1) {
+	          return Integer.parseInt(""+i%10+reverseInt(i/10));
+	        }
+	        return i%10;
+	      }
 
 	public static void main(String[] args) {
 
@@ -35,5 +42,6 @@ public class TestingGit1 {
 		System.out.println(t.reverse("Jonny stop cd cd cd all the time in Git"));
 		System.out.println("Thats my way of learning SIR");
 		System.out.println("Thank you brothers");
+		System.out.println(t.reverseInt(56738363));
 	}
 }
