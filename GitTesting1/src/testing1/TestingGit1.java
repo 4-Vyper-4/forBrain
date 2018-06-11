@@ -62,7 +62,7 @@ public class TestingGit1 {
 		System.out.println(t.reverseInt(56738363));
 		t.newReverse(0);// add argument
 		//keep using git status after every command 
-		
+		//thanks i will
 		
 		
 	}
